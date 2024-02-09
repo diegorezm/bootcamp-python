@@ -10,7 +10,7 @@ endgame = False
 
 print(logo)
 
-display = ["_" for i in range(len(word))]
+display = ["_" for _ in range(len(word))]
 
 while not endgame:
   print(''.join(display))
