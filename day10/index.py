@@ -2,15 +2,19 @@ from art import logo
 print(logo)
 
 def plus(n1:  int, n2: int):
+    """THIS FUNCTION ADDS TWO NUMBERS"""
     return n1 + n2
 
 def minus(n1:  int , n2: int):
+    """THIS FUNCTION SUBTRACTS TWO NUMBERS"""
     return n1 - n2
 
 def  times(n1: int, n2: int):
+    """THIS FUNCTION MULTIPLY TWO NUMBERS"""
     return n1 * n2
 
 def devide(n1: int , n2: int):
+    """THIS FUNCTION DIVIDES TWO NUMBERS"""
     return n1/n2
 
 operations = ["+", "-", "*", "/"]
