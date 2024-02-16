@@ -1,6 +1,8 @@
 from turtle import Turtle
+from const import HEIGTH 
+
 class Player(Turtle):
-  def __init__(self, coords: tuple[int]) -> None:
+  def __init__(self, coords: tuple[float, float]) -> None:
     super().__init__()
     self.color("white")
     self.penup()
@@ -9,9 +11,13 @@ class Player(Turtle):
     self.shapesize(5,1)
   
   def goup(self):
-    new_y = self.xcor() + 20
+    if self.ycor() > ((HEIGTH // 2) - 80):
+      return
+    new_y = self.ycor() + 20
     self.goto(self.xcor(), new_y)
 
   def godown(self):
-    new_y = self.xcor() - 20
+    if self.ycor() < -((HEIGTH // 2) - 80):
+      return
+    new_y = self.ycor() - 20
     self.goto(self.xcor(), new_y)
