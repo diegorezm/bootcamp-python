@@ -14,8 +14,18 @@ screen.tracer(0)
 snake = Snake()
 food = Food()
 
-with open("hscore.txt", 'r') as file:
-    content = file.read().strip()
+
+try:
+    with open("hscore.txt", 'r') as file:
+        content = file.read().strip()
+        if content == "":
+            content = "0"
+except FileNotFoundError:
+    with open("hscore.txt", 'w') as file:
+        file.write("0")
+    content = "0"
+
+
 
 try:
     score = int(content)
