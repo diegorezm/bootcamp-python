@@ -1,6 +1,6 @@
 import tkinter as tk
 from PassowrdManager import Password, PassowrdManager
-
+import pyperclip
 
 FONT_CONFIG = ("Arial", 14)
 HEIGHT = 399
@@ -59,6 +59,7 @@ random_password_btn = tk.Button(root, text="random password", width=15, height=1
 def onSubmit():
     passwordManager = PassowrdManager()
     newPassword = Password(website=website.get(),emailOrUsername=emailOrUsername.get(),password=password.get())
+    pyperclip.copy(newPassword.password)
     passwordManager.create_new_entry(newPassword)
     m = tk.Message(root, text="Added!", width=200,font=FONT_CONFIG, justify=tk.CENTER)
     m.place(x=300,y=350)
