@@ -3,13 +3,11 @@ import pandas as pd
 import string
 import random
 
-
 @dataclass
 class Password:
     website: str
     emailOrUsername: str
     password: str
-
 
 class PassowrdManager:
     def __init__(self) -> None:
@@ -41,6 +39,12 @@ class PassowrdManager:
     def create_new_entry(self, p: Password):
         self.password_list.append(p)
         self.save_data()
+
+    def search(self, web: str):
+        for p in self.password_list:
+            if web == p.website:
+                return p
+        return None
 
     @staticmethod
     def gen_random_password() -> str:

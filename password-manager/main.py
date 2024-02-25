@@ -11,8 +11,7 @@ root = tk.Tk()
 root.title("Password manager")
 root.minsize(WIDTH, HEIGHT)
 root.maxsize(WIDTH, HEIGHT)
-
-
+passwordManager = PassowrdManager()
 
 website = tk.StringVar(root)
 emailOrUsername = tk.StringVar(root)
@@ -40,30 +39,53 @@ password_label = tk.Label(root, text="Password:", font=FONT_CONFIG).place(
 default_entry_x = 219
 default_entry_y = default_label_y
 default_entry_w = 29
-website_entry = tk.Entry(root, textvariable=website, width=default_entry_w).place(
+website_entry = tk.Entry(root, textvariable=website, width=20).place(
     x=default_entry_x, y=default_entry_y
 )
 emailOrUsername_entry = tk.Entry(
     root, textvariable=emailOrUsername, width=default_entry_w
 ).place(x=default_entry_x, y=default_entry_y + 39)
 
-password_entry = tk.Entry(root, textvariable=password, width=15).place(
+password_entry = tk.Entry(root, textvariable=password, width=20).place(
     x=default_entry_x, y=default_label_y + 79
 )
 
+
 # Btn
+def search():
+    w = website.get()
+    s = passwordManager.search(w)
+    if s:
+        message = f"email: {s.emailOrUsername}\npassword: {s.password}"
+        messagebox.showinfo(title=s.website, message=message)
+    else:
+        messagebox.showinfo(title="Not found", message="No entry found for this website!")
+
+
 def random_password():
     password.set(PassowrdManager.gen_random_password())
 
-random_password_btn = tk.Button(root, text="random password", width=15, height=1, command=random_password).place(x=default_entry_x + 120, y=default_entry_y + 79)
+
+random_password_btn = tk.Button(
+    root, text="random password", width=15, height=1, command=random_password
+).place(x=default_entry_x + 160, y=default_entry_y + 79)
+
+search_btn = tk.Button(
+    root, text="Search", width=15, height=1, command=search
+).place(x=default_entry_x + 160, y=default_entry_y)
+
 
 def onSubmit():
-    passwordManager = PassowrdManager()
-    newPassword = Password(website=website.get(),emailOrUsername=emailOrUsername.get(),password=password.get())
+    newPassword = Password(
+        website=website.get(),
+        emailOrUsername=emailOrUsername.get(),
+        password=password.get(),
+    )
     m = f"Password for {newPassword.website} was added!"
-    messagebox.showinfo(title="Password added!", message = m)
+    messagebox.showinfo(title="Password added!", message=m)
     pyperclip.copy(newPassword.password)
     passwordManager.create_new_entry(newPassword)
+
 
 add_new_password = tk.Button(
     root, text="Add", width=default_entry_w, command=onSubmit
