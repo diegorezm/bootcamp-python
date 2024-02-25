@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import messagebox
 from PassowrdManager import Password, PassowrdManager
 import pyperclip
 
@@ -59,10 +60,10 @@ random_password_btn = tk.Button(root, text="random password", width=15, height=1
 def onSubmit():
     passwordManager = PassowrdManager()
     newPassword = Password(website=website.get(),emailOrUsername=emailOrUsername.get(),password=password.get())
+    m = f"Password for {newPassword.website} was added!"
+    messagebox.showinfo(title="Password added!", message = m)
     pyperclip.copy(newPassword.password)
     passwordManager.create_new_entry(newPassword)
-    m = tk.Message(root, text="Added!", width=200,font=FONT_CONFIG, justify=tk.CENTER)
-    m.place(x=300,y=350)
 
 add_new_password = tk.Button(
     root, text="Add", width=default_entry_w, command=onSubmit
