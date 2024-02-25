@@ -31,10 +31,4 @@ while is_game_on:
     new_state.goto(state)
     new_state.write(asw)
 
-
-
-
-
-
-
 screen.mainloop()
