@@ -42,4 +42,3 @@ class Snake:
 
     def down(self):
         self.snake_body[0].setheading(270)
-

@@ -1,0 +1,94 @@
+Day,Stage,Title
+day1,Beginner,Working with Variables in Python to Manage Data
+day2,Beginner,Understanding Data Types and How to Manipulate Strings
+day3,Beginner,Control Flow and Logical Operators
+day4,Beginner,Randomisation and Python Lists
+day5,Beginner,Python Loops
+day6,Beginner,Python Functions & Karel
+day7,Beginner,Hangman
+day8,Beginner,Function Parameters & Caesar Cipher
+day9,Beginner,"Dictionaries, Nesting and the Secret Auction"
+day10,Beginner,Functions with Outputs
+day11,Beginner,The Blackjack Capstone Project
+day12,Beginner,Scope & Number Guessing Game
+day13,Beginner,Debugging: How to Find and Fix Errors in your Code
+day14,Beginner,Higher Lower Game Project
+day15,Intermediate,Local Development Environment Setup & the Coffee Machine
+day16,Intermediate,Object Oriented Programming (OOP)
+day17,Intermediate,The Quiz Project & the Benefits of OOP
+day18,Intermediate,Turtle & the Graphical User Interface (GUI)
+day19,Intermediate,"Instances, State and Higher Order Functions"
+day20,Intermediate,Build the Snake Game Part 1: Animation & Coordinates
+day21,Intermediate,Build the Snake Game Part 2: Inheritance & List Slicing
+day22,Intermediate,Build Pong: The Famous Arcade Game
+day23,Intermediate,The Turtle Crossing Capstone Project
+day24,Intermediate,"Files, Directories and Paths"
+day25,Intermediate,Working with CSV Data and the Pandas Library
+day26,Intermediate,List Comprehension and the NATO Alphabet
+day27,Intermediate,"Tkinter, *args, **kwargs and Creating GUI Programs"
+day28,Intermediate,"Tkinter, Dynamic Typing and the Pomodoro GUI Application"
+day29,Intermediate,Building a Password Manager GUI App with Tkinter
+day30,Intermediate,"Errors, Exceptions and JSON Data: Improving the Password"
+day31,Intermediate,Flash Card App Capstone Project
+day33,Intermediate+, API Endpoints & API Parameters,ISS Overhead Notifier
+day34,Intermediate+, API Practice,Creating a GUI Quiz App
+day41,Web Foundation,Introduction to HTML
+day42,Web Foundation,Intermediate HTML
+day43,Web Foundation,Introduction to CSS
+day44,Web Foundation,Intermediate CSS
+day45,Intermediate+, Web Scraping with Beautiful Soup
+day46,Intermediate+, Create a Spotify Playlist using the Musical Time Machine
+day47,Intermediate+, Create an Automated Amazon Price Tracker
+day48,Intermediate+, Selenium Webdriver Browser and Game Playing Bot
+day49,Intermediate+, Automating Job Applications on LinkedIn
+day50,Intermediate+, Auto Tinder Swiping Bot
+day51,Intermediate+, Internet Speed Twitter Complaint Bot
+day52,Intermediate+, Instagram Follower Bot
+day53,Intermediate+, Web Scraping Capstone,Data Entry Job Automation
+day54,Intermediate+, Introduction to Web Development with Flask
+day55,Intermediate+, HTML & URL Parsing in Flask and the Higher Lower Game
+day56,Intermediate+, Rendering HTML/Static files and Using Website Templates
+day57,Intermediate+, Templating with Jinja in Flask Applications
+day58,Intermediate+,Web Foundation Bootstrap
+day59,Advanced,Blog Capstone Project Part 2
+day60,Advanced,Make POST Requests with Flask and HTML Forms
+day61,Advanced,Building Advanced Forms with Flask-WTForms
+day62,Advanced,"Flask, WTForms, Bootstrap and CSV"
+day63,Advanced,Databases and with SQLite and SQLAlchemy
+day64,Advanced,My Top 10 Movies Website
+day65,Web Design School,How to Create a Website that People will Love
+day66,Advanced,Building Your Own API with RESTful Routing
+day67,Advanced,Blog Capstone Project Part 3
+day68,Advanced,Authentication with Flask
+day69,Advanced,Blog Capstone Project Part 4
+day70,Advanced,"Git, Github and Version Control"
+day71,Advanced,Deploying Your Web Application
+day72,Advanced,Data Exploration with Pandas: College Major v.s. Your Salary
+day73,Advanced,Data Visualisation with Matplotlib: Programming Languages
+day74,Advanced,Aggregate & Merge Data with Pandas: Analyse the LEGO Dataset
+day75,Advanced,Google Trends Data: Resampling and Visualising Time Series
+day76,Advanced,Beautiful Plotly Charts & Analysing the Android App Store
+day77,Advanced,Computation with NumPy and N-Dimensional Arrays
+day78,Advanced,Linear Regression and Data Visualisation with Seaborn
+day79,Advanced,"Analysing the Nobel Prize with Plotly, Matplotlib & Seaborn"
+day80,Advanced,The Tragic Discovery of Handwashing: t-Tests & Distributions
+day81,Advanced,Capstone Project 
+day82,Professional, Portfolio Project,Python Scripting
+day83,Professional, Portfolio Project,Python Web Development
+day84,Professional, Portfolio Project,Python Scripting
+day85,Professional, Portfolio Project,GUI
+day86,Professional, Portfolio Project,GUI
+day87,Professional, Portfolio Project,Game
+day88,Professional, Portfolio Project,Web Development
+day89,Professional, Portfolio Project,Web Development
+day90,Professional, Portfolio Project,GUI Desktop App
+day91,Professional, Portfolio Project,HTTP Requests & APIs
+day92,Professional, Portfolio Project,Image Processing & Data Science
+day93,Professional, Portfolio Project,Web Scraping
+day94,Professional, Portfolio Project,GUI Automation
+day95,Professional, Portfolio Project,Game
+day96,Professional, Portfolio Project,HTTP Requests & APIs
+day97,Professional, Portfolio Project,Web Development
+day98,Professional, Portfolio Project,Python Automation
+day99,Professional, Portfolio Project,Data Science
+day100,Professional, Portfolio Project,Data Science

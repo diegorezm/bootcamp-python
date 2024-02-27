@@ -24,4 +24,3 @@ class Player(Turtle):
 
     def goto_start(self):
         self.goto(0, -(HEIGHT // 2 - 20))
-
