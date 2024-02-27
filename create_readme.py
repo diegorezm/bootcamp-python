@@ -9,11 +9,11 @@ with open(csv_file, mode='r') as file:
     next(reader)  # Skip header row
     data = list(reader)
 
-directories = [dir for dir in sorted(os.listdir(".")) if os.path.isdir(dir) and dir.startswith("day")]
+directories = [dir for dir in os.listdir(".") if os.path.isdir(dir) and dir.startswith("day")]
 days = {row[0]: (row[1], row[2]) for row in data}
 
 # # Iterate through directories
-for i, directory in enumerate(directories):
+for  directory in directories:
     if directory in days:
         d = days[directory]
         readme_content = f"# {directory}, {d[0]}, {d[1]}"
