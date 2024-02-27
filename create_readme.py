@@ -14,7 +14,7 @@ days = {row[0]: (row[1], row[2]) for row in data}
 
 # # Iterate through directories
 for  directory in directories:
-    if directory in days:
+    if directory in days and not os.path.exists(os.path.join(directory,"readme.md")):
         d = days[directory]
         readme_content = f"# {directory}, {d[0]}, {d[1]}"
         readme_file = os.path.join(directory, "readme.md")
