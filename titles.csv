@@ -30,8 +30,9 @@ day28,Intermediate,"Tkinter, Dynamic Typing and the Pomodoro GUI Application"
 day29,Intermediate,Building a Password Manager GUI App with Tkinter
 day30,Intermediate,"Errors, Exceptions and JSON Data: Improving the Password"
 day31,Intermediate,Flash Card App Capstone Project
-day33,Intermediate+, API Endpoints & API Parameters,ISS Overhead Notifier
-day34,Intermediate+, API Practice,Creating a GUI Quiz App
+day32,Intermediate, Send Email (smtplib) & Manage Dates (datetime)
+day33,Intermediate+, API Endpoints & API Parameters ISS Overhead Notifier
+day34,Intermediate+, API Practice Creating a GUI Quiz App
 day41,Web Foundation,Introduction to HTML
 day42,Web Foundation,Intermediate HTML
 day43,Web Foundation,Introduction to CSS
@@ -44,7 +45,7 @@ day49,Intermediate+, Automating Job Applications on LinkedIn
 day50,Intermediate+, Auto Tinder Swiping Bot
 day51,Intermediate+, Internet Speed Twitter Complaint Bot
 day52,Intermediate+, Instagram Follower Bot
-day53,Intermediate+, Web Scraping Capstone,Data Entry Job Automation
+day53,Intermediate+, Web Scraping Capstone Data Entry Job Automation
 day54,Intermediate+, Introduction to Web Development with Flask
 day55,Intermediate+, HTML & URL Parsing in Flask and the Higher Lower Game
 day56,Intermediate+, Rendering HTML/Static files and Using Website Templates
@@ -53,10 +54,10 @@ day58,Intermediate+,Web Foundation Bootstrap
 day59,Advanced,Blog Capstone Project Part 2
 day60,Advanced,Make POST Requests with Flask and HTML Forms
 day61,Advanced,Building Advanced Forms with Flask-WTForms
-day62,Advanced,"Flask, WTForms, Bootstrap and CSV"
+day62,Advanced,"Flask WTForms, Bootstrap and CSV"
 day63,Advanced,Databases and with SQLite and SQLAlchemy
 day64,Advanced,My Top 10 Movies Website
-day65,Web Design School,How to Create a Website that People will Love
+day65,Advanced,Web Design School How to Create a Website that People will Love
 day66,Advanced,Building Your Own API with RESTful Routing
 day67,Advanced,Blog Capstone Project Part 3
 day68,Advanced,Authentication with Flask
@@ -73,22 +74,22 @@ day78,Advanced,Linear Regression and Data Visualisation with Seaborn
 day79,Advanced,"Analysing the Nobel Prize with Plotly, Matplotlib & Seaborn"
 day80,Advanced,The Tragic Discovery of Handwashing: t-Tests & Distributions
 day81,Advanced,Capstone Project 
-day82,Professional, Portfolio Project,Python Scripting
-day83,Professional, Portfolio Project,Python Web Development
-day84,Professional, Portfolio Project,Python Scripting
-day85,Professional, Portfolio Project,GUI
-day86,Professional, Portfolio Project,GUI
-day87,Professional, Portfolio Project,Game
-day88,Professional, Portfolio Project,Web Development
-day89,Professional, Portfolio Project,Web Development
-day90,Professional, Portfolio Project,GUI Desktop App
-day91,Professional, Portfolio Project,HTTP Requests & APIs
-day92,Professional, Portfolio Project,Image Processing & Data Science
-day93,Professional, Portfolio Project,Web Scraping
-day94,Professional, Portfolio Project,GUI Automation
-day95,Professional, Portfolio Project,Game
-day96,Professional, Portfolio Project,HTTP Requests & APIs
-day97,Professional, Portfolio Project,Web Development
-day98,Professional, Portfolio Project,Python Automation
-day99,Professional, Portfolio Project,Data Science
-day100,Professional, Portfolio Project,Data Science
+day82,Professional, Portfolio Project Python Scripting
+day83,Professional, Portfolio Project Python Web Development
+day84,Professional, Portfolio Project Python Scripting
+day85,Professional, Portfolio Project GUI
+day86,Professional, Portfolio Project GUI
+day87,Professional, Portfolio Project Game
+day88,Professional, Portfolio Project Web Development
+day89,Professional, Portfolio Project Web Development
+day90,Professional, Portfolio Project GUI Desktop App
+day91,Professional, Portfolio Project HTTP Requests & APIs
+day92,Professional, Portfolio Project Image Processing & Data Science
+day93,Professional, Portfolio Project Web Scraping
+day94,Professional, Portfolio Project GUI Automation
+day95,Professional, Portfolio Project Game
+day96,Professional, Portfolio Project HTTP Requests & APIs
+day97,Professional, Portfolio Project Web Development
+day98,Professional, Portfolio Project Python Automation
+day99,Professional, Portfolio Project Data Science
+day100,Professional, Portfolio Project Data Science
