@@ -1,5 +1,5 @@
 from time import sleep
-from tkinter import Button, Canvas, Tk, PhotoImage
+from tkinter import Button, Canvas, Label, Tk, PhotoImage
 from quiz_brain import QuizBrain
 
 from question_model import Question
@@ -24,6 +24,9 @@ class UI(Tk):
         self.geometry("800x900")
         self.configure(bg=THEME_COLOR)
         self.q = q
+        self.score = 0
+        self.scoreboard = Label(self,text=f"score: {self.score}", bg=THEME_COLOR, fg="#fff",font=FONT)
+        self.scoreboard.place(x=550,y=50)
         self.current_question = q[0]
         self.quizBrain = QuizBrain(q)
         self.false_btn_img = PhotoImage(file="./images/false.png")
@@ -59,6 +62,8 @@ class UI(Tk):
         answ = self.quizBrain.check_answer(u)
         if answ:
             self.canvas.configure(bg="green")
+            self.score += 1
+            self.scoreboard.configure(text=f"score: {self.score}")
         else:
             self.canvas.configure(bg="red")
         self.update()
